@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Component renders 1`] = `
+<DocumentFragment>
+  <form>
+    <input
+      class="zipCode__field"
+      data-testid="zipCode-field"
+      name="zipCode"
+      placeholder="Zip Code..."
+      type="text"
+      value=""
+    />
+    <div
+      class="arr"
+      data-testid="button"
+    >
+      →
+    </div>
+  </form>
+</DocumentFragment>
+`;

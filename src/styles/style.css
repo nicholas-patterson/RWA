@@ -1,0 +1,84 @@
+* {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #333;
+}
+
+form {
+  height: inherit;
+  position: relavtive;
+}
+
+.zipCode__field {
+  outline: none;
+  border: none;
+  background: #1a1a1a;
+  width: 25%;
+  height: 3.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 0 1rem;
+}
+
+.arr {
+  font-size: 2.3rem;
+  cursor: pointer;
+  position: absolute;
+  top: 51%;
+  left: 63%;
+  border: none;
+  background: none;
+  margin-left: 1rem;
+}
+
+.detailsContainer {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.detailsContainer > * {
+  color: white;
+}
+
+.city {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.temp {
+  font-size: 1.5rem;
+}
+
+.min {
+  font-size: 1.5rem;
+}
+
+.max {
+  font-size: 1.5rem;
+}
+
+.desc {
+  font-size: 1.5rem;
+}
+
+img[src] {
+  width: 50%;
+}
+
+.error {
+  color: red;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 55%;
+  left: 37%;
+}

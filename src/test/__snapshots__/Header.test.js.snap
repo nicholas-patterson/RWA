@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component renders 1`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-root-1"
+  >
+    <header
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-dense MuiToolbar-gutters"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4 MuiTypography-colorInherit"
+          data-testid="site-title"
+        >
+          React Weather App
+        </h4>
+      </div>
+    </header>
+  </div>
+</DocumentFragment>
+`;
